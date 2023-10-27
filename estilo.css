@@ -10,7 +10,7 @@ body {
     max-width: 1920px;
     margin: 0;
     color: black;
-    background-color: rgb(119, 106, 106);
+    background-color: #ececec;
 
 }
 
@@ -156,26 +156,26 @@ main{
 
 .Sobremim {
    margin: 150px;
-   padding: 150px;
+   padding: 50px;
    color: #fdfdfd;
    background-color: rgb(73, 73, 73);
    border-radius: 31px;
 }
 
-.Habilidades{
+.Habilidade{
     background-color: rgb(73, 73, 73);
     color: #fdfdfd;
     margin: 150px;
-    padding: 150px;
+    padding: 50px;
     align-items: center;
     border-radius: 31px;
 }
 
-.Projetos{
+.Projeto{
     background-color: rgb(73, 73, 73);
     color: #fdfdfd;
     margin: 150px;
-    padding: 150px;
+    padding: 50px;
     align-items: center;
     border-radius: 31px;
 }
@@ -184,7 +184,62 @@ main{
     background-color: rgb(73, 73, 73);
     color: #fdfdfd;
     margin: 150px;
-    padding: 150px;
+    padding: 50px;
     align-items: center;
     border-radius: 31px;
+}
+
+.MenuSobre{
+    background-color: rgb(73, 73, 73);
+    color: #d3d3d3;
+    stop-color: beige;
+    margin: 1px;
+    padding: 5px;
+    text-align: center;
+    position: static;
+    border-radius: 31px;
+    justify-content: space-around;
+    margin-top: 20PX;
+    opacity: 0.1;
+    text-align: justify;
+}
+
+.eu{
+    background-color: rgb(73, 73, 73);
+    color: #fdfdfd;
+    stop-color: beige;
+    margin: 150px;
+    padding: 50px;
+    align-items: center;
+    border-radius: 31px;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 500px;
+    box-sizing: border-box;
+    max-width: 50%;
+
+
+}
+
+.navegacao-MenuSobre{
+    margin-top: 50px;
+    color: rgba(116, 115, 111, 0.829);
+    background-color: #ececec;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 1.7rem;
+    text-align: center;
+    text-align: justify;
+}
+
+.conteudotexto{
+    text-align: justify;
+}
+
+.titulo_topicos{
+    
+    align-items: center;
+    margin-right: 25px;
+    text-align: center;
+    color: bisque;
 }
