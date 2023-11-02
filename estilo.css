@@ -141,11 +141,10 @@ header .navegacao-primaria li a{
 main{
     background-color: #ececec;
     border-color: #ececec;
-    border-radius: 5px;
     mask-position: 0%;
     position: Right;
     align-items: center;
-
+    
 }
 
 /* Fim Seção Geral - conteúdo do menu */
@@ -155,20 +154,29 @@ main{
 /* Seções de conteudo Individual*/
 
 .Sobremim {
-   margin: 150px;
-   padding: 50px;
-   color: #fdfdfd;
-   background-color: rgb(73, 73, 73);
-   border-radius: 31px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: start;
+    
+    gap: 60px;
+    padding: 60px;
+    color: rgb(10, 10, 10);
+    background-color: #ececec;
+    text-align: center  ;
+
 }
 
 .Habilidade{
-    background-color: rgb(73, 73, 73);
-    color: #fdfdfd;
-    margin: 150px;
+    background-color:rgb(10, 10, 10);
+    color: #ebebeb;
+    margin: 30px;
+    margin-left: 780px;
+    margin-right: 780px;
     padding: 50px;
     align-items: center;
     border-radius: 31px;
+    text-align: left;
 }
 
 .Projeto{
@@ -191,8 +199,8 @@ main{
 
 .MenuSobre{
     background-color: rgb(73, 73, 73);
-    color: #d3d3d3;
-    stop-color: beige;
+    color: #2e2e2e;
+    stop-color: rgb(34, 34, 33);
     margin: 1px;
     padding: 5px;
     text-align: center;
@@ -202,6 +210,8 @@ main{
     margin-top: 20PX;
     opacity: 0.1;
     text-align: justify;
+    display: grid;
+
 }
 
 .eu{
@@ -223,17 +233,21 @@ main{
 
 .navegacao-MenuSobre{
     margin-top: 50px;
-    color: rgba(116, 115, 111, 0.829);
-    background-color: #ececec;
+    color: rgba(5, 5, 5, 0.829);
+    background-color: #d4cfcf;
     border-radius: 30px;
     padding: 10px;
     font-size: 1.7rem;
     text-align: center;
-    text-align: justify;
-}
+    text-align: justify;;
+    size: -25px;
+    white-space: 0;
+}   
 
 .conteudotexto{
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(141, 140, 140);
 }
 
 .titulo_topicos{
@@ -241,5 +255,25 @@ main{
     align-items: center;
     margin-right: 25px;
     text-align: center;
-    color: bisque;
+    color: rgb(46, 46, 46);
+    font-family: COMIC;
+}
+
+.RODAPE{
+    background-color: #312d2d;
+    padding: 0PX;
+    margin-top: -150PX;
+    text-align: center;
+    color: #3d3c3c;
+    font-size: 30PX;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo_topicos_sobremim{
+    
+    align-items: center;
+    margin-right: 25px;
+    text-align: left;
+    color: rgb(46, 46, 46);
+    font-family: COMIC;
 }
